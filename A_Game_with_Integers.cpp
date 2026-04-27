@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    long t;
+    cin >> t;
+    while (t--)
+    {
+
+        int n;
+        cin >> n;
+    
+        int rem =n%3;
+         //0,1,2
+        if(rem==0)
+        {
+            cout << "Second" << endl;
+        }
+        else
+        {
+            cout << "First" <<endl;
+        }
+        
+
+
+    }
+}
